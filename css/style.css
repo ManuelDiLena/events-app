@@ -1,0 +1,89 @@
+body {
+  font-family: 'Abhaya Libre' serif;
+  background-color: #F3E9D2;
+}
+
+.form {
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #114B5F;
+}
+
+.form input {
+  margin: 5px 0;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  border: none;
+  background-color: #88D498;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+input[type="submit"]:hover {
+  background-color: #1A936F;
+}
+
+#eventsContainer {
+  padding: 10px;
+  width: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 10px;
+  background-color: #114B5F;
+}
+
+.event {
+  border: solid 1px #88D498;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event .days {
+  text-align: center;
+  width: 100px;
+}
+
+.event .days .days-number {
+  font-size: 30px;
+  font-weight: bold;
+  display: block;
+}
+
+.event .event-name {
+  padding: 10px;
+  width: 200px;
+}
+
+.event .event-date {
+  padding: 10px;
+  width: 100px;
+}
+
+.event .actions {
+  padding: 10px;
+}
+
+button {
+  border: none;
+  background-color: #ff5b70;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
