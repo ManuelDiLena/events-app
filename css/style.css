@@ -1,0 +1,85 @@
+body {
+  font-family: "Abel", serif;
+  background-color: #E9F6FF;
+}
+
+.form {
+  background-color: #3652AD;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+}
+
+.form input {
+  box-sizing: border-box;
+  display: block;
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #280274;
+  border: none;
+  border-radius: 5px;
+  color: #E9F6FF;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px;
+  transition: all 0.5s;
+}
+
+input[type="submit"]:hover {
+  background-color: #170046;
+}
+
+#eventsContainer {
+  background-color: #FE7A36;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 100px auto;
+  padding: 10px;
+  width: 500px;
+}
+
+.event {
+  align-items: center;
+  border: solid 1px #280274;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.event .type {
+  text-align: center;
+  width: 100px;
+}
+
+.event .days .days-number {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.event .event-name {
+  padding: 10px;
+  width: 200px;
+}
+
+.event .event-date {
+  padding: 10px;
+  width: 100px;
+}
+
+button {
+  background-color: #FF5B70;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+  padding: 5px;
+}
